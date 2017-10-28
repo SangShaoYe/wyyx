@@ -1,0 +1,214 @@
+@charset "UTF-8";
+.container {
+  width: 100%;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1) inset;
+  background: url(../img/login/6c20940c7b36612b0ed4d7b0a8a4aafe.jpg) no-repeat center; }
+  .container * {
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box; }
+  .container .main {
+    box-sizing: content-box;
+    width: 1090px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 600px; }
+  .container .login-page {
+    box-sizing: border-box;
+    margin-left: 703px;
+    border: 1px solid #e8e8e8;
+    width: 386px;
+    padding: 0 40px;
+    background: #fff;
+    height: 460px;
+    position: relative;
+    top: 83px; }
+  .container .head {
+    background: 0 0;
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    line-height: 18px;
+    margin: 0;
+    width: 100%;
+    height: auto;
+    padding: 30px 0;
+    padding-left: 40px; }
+  .container .body {
+    width: 300px;
+    margin: 0 auto;
+    padding: 0;
+    outline: none; }
+  .container .inputBox {
+    width: 100%;
+    height: 36px;
+    border: 1px solid #e8e8e8;
+    line-height: 36px;
+    border-radius: 2px;
+    z-index: 19;
+    position: relative; }
+    .container .inputBox .u-logo {
+      float: left;
+      width: 29px;
+      text-align: center;
+      padding: 7px 0 7px 7px;
+      height: 24px;
+      line-height: 36px; }
+    .container .inputBox .u-logo-img {
+      display: inline-block;
+      width: 21px;
+      height: 24px;
+      margin-top: 0px;
+      padding-right: 7px;
+      border-right: 1px solid #e8e8e8;
+      background: url(../img/login/d6bd29fcf2096cb4c5d338e0fce13919.png) 0 2px no-repeat; }
+    .container .inputBox .password {
+      background: url(../img/login/178e29b95f152a8aa6490f4f7032a8e8.png) 0 2px no-repeat; }
+    .container .inputBox .u-input {
+      float: left;
+      height: 36px;
+      line-height: 36px;
+      padding-left: 8px;
+      width: 216px;
+      font-size: 14px; }
+    .container .inputBox .input-text {
+      outline: 0;
+      border: 0; }
+    .container .inputBox .input-text::-webkit-input-placeholder {
+      color: #CCCCCC; }
+    .container .inputBox .input-text::-moz-placeholder {
+      color: #CCCCCC; }
+    .container .inputBox .input-text:-ms-input-placeholder {
+      color: #CCCCCC; }
+  .container .separate {
+    position: relative;
+    width: 300px;
+    height: 10px;
+    line-height: 16px;
+    font-size: 12px; }
+  .container .login-box {
+    margin-top: 40px;
+    margin-bottom: 15px; }
+    .container .login-box a {
+      display: block;
+      width: 100%;
+      height: 48px;
+      cursor: pointer;
+      text-align: center;
+      color: #fff;
+      background: #b4a078;
+      font-size: 18px;
+      line-height: 48px;
+      border-radius: 2px;
+      text-decoration: none; }
+  .container .unlogin {
+    padding: 2px 0 9px 0;
+    font-size: 0;
+    height: 16px;
+    line-height: 16px; }
+    .container .unlogin a {
+      height: 12px;
+      text-decoration: none;
+      cursor: pointer;
+      color: #999;
+      font-size: 12px;
+      line-height: 16px; }
+    .container .unlogin a:hover {
+      color: #333; }
+    .container .unlogin .forget-pwd {
+      float: left; }
+    .container .unlogin .change-page {
+      float: right; }
+  .container .ologin {
+    height: 106px;
+    text-align: left;
+    color: #9fabbf; }
+  .container .otip {
+    position: relative;
+    float: none;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    color: #999999;
+    z-index: 10;
+    text-indent: -9999px;
+    line-height: 26px; }
+  .container .otip:before {
+    content: '其他登录方式';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    text-indent: 0;
+    width: 120px;
+    height: 100%;
+    margin-left: -60px;
+    background: #fff;
+    z-index: 2;
+    font-size: 14px; }
+  .container .otip:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+    border-top: 1px solid #ddd;
+    z-index: 0; }
+  .container .olist {
+    margin: 0;
+    padding-top: 30px;
+    height: 50px;
+    text-align: center; }
+    .container .olist a {
+      position: relative;
+      width: 30px;
+      height: auto;
+      float: none;
+      padding: 37px 19px 0;
+      margin: 0;
+      display: inline-block;
+      text-align: center;
+      background: none;
+      font-size: 12px;
+      text-decoration: none;
+      color: #999; }
+    .container .olist .weixin:before {
+      content: '微信';
+      width: 30px; }
+    .container .olist a:after {
+      position: absolute;
+      display: block;
+      top: 0;
+      left: 50%;
+      width: 30px;
+      height: 30px;
+      margin-left: -15px;
+      clear: none;
+      visibility: visible;
+      overflow: auto;
+      content: '';
+      background: url(../img/login/91e4210ce769ec652d85015b00418c40.png) no-repeat; }
+    .container .olist .qq:before {
+      content: 'QQ';
+      width: 30px; }
+    .container .olist .qq:after {
+      background-position: -76px 0;
+      width: 25px;
+      margin-left: -12px; }
+    .container .olist .weibo:before {
+      content: '微博';
+      width: 30px; }
+    .container .olist .weibo:after {
+      background-position: -146px 0;
+      margin-left: -14px; }
+    .container .olist .qiyeyou {
+      width: 60px;
+      padding: 37px 7px 0; }
+    .container .olist .qiyeyou:before {
+      content: '网易企业邮';
+      width: 30px; }
+    .container .olist .qiyeyou:after {
+      background: url(../img/login/下载.png) no-repeat; }

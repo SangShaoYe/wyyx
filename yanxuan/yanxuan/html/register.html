@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>注册</title>
+		<link rel="stylesheet" type="text/css" href="../css/register.css">
+	</head>
+	<body>
+		<div class="head">
+			<div class="frame">	
+				<a href="">
+					<div class="logo"></div>
+				</a>
+				<div class="right-tip">
+					已有账号？去
+					<a href="login.html" id="btn-login">登录</a>
+				</div>
+			</div>
+		</div>
+		<div class="reg-page">
+			<div class="mode">
+				<div class="left">普通账号注册</div>
+				<a href="//haoma.163.com/?from=zc" class="right">靓号注册</a>
+			</div>
+			<form>
+
+				<div class="u-input firstElem">
+					<label for="ipt-account" class="u-label">帐号：</label>
+					<input type="text" name="email" id="ipt-account" class="i-input" placeholder="网易邮箱/手机号/其他邮箱" value="">
+					<div class="u-tip">
+						<div class="u-clear"></div>
+					</div>
+					<table class="popb">
+						<tbody>
+							<tr>
+								<td class="icon">
+									<i></i>
+								</td>
+								<td class="text"></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+
+				<div class="u-input">
+					<label for="ipt-psw" class="u-label">密码：</label>
+					<input type="password" name="email" id="ipt-psw" class="i-input" placeholder="6-16位密码，区分大小写" value="">
+					<div class="u-tip">
+						<div class="u-clear"></div>
+					</div>
+					<table class="popb">
+						<tbody>
+							<tr>
+								<td class="icon">
+									<i></i>
+								</td>
+								<td class="text"></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+
+				<div class="u-input">
+					<label for="ipt-cfm" class="u-label">确认密码：</label>
+					<input type="password" name="email" id="ipt-cfm" class="i-input" placeholder="再次输入密码" value="">
+					<div class="u-tip">
+						<div class="u-clear"></div>
+					</div>
+					<table class="popb">
+						<tbody>
+							<tr>
+								<td class="icon">
+									<i></i>
+								</td>
+								<td class="text"></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+
+				<div class="u-input">
+					<label for="ipt-mb" class="u-label">手机号：</label>
+					<input type="text" name="email" id="ipt-mb" class="i-input" placeholder="11位手机号" value="">
+					<div class="u-tip">
+						<div class="u-clear"></div>
+					</div>
+					<table class="popb">
+						<tbody>
+							<tr>
+								<td class="icon">
+									<i></i>
+								</td>
+								<td class="text"></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+
+				<div class="u-input u-note">
+					<label class="u-label"></label>
+					<span class="changephone">切换到国际手机</span>
+				</div>
+
+				<div class="u-input u-note">
+					<label class="u-label"></label>
+					忘记密码时，可通过手机快速找回密码
+				</div>
+
+				<div class="u-input">
+					<label for="ipt-msg" class="u-label">短信验证码：</label>
+					<input type="password" name="email" id="ipt-msg" class="i-input sms" placeholder="输入短信验证码" value="">
+					<span class="btn-sms disabled">获取验证码</span>
+					<!-- <table class="password err popb">
+						<tbody>
+							<tr>
+								<td class="icon">
+									<i></i>
+								</td>
+								<td class="text">手机格式不正确</td>
+							</tr>
+						</tbody>
+					</table> -->
+				</div>
+
+				<div class="u-input">
+					<label class="u-label"></label>
+					<div class="btn-reg disabled">注&nbsp;&nbsp;册</div>
+				</div>
+
+				<div class="u-input">
+					<label class="u-label"></label>
+					<div class="tip">
+						<input id="chkbox" checked="checked" type="checkbox" name="">
+						<span>用户勾选即代表同意</span>
+						<a target="_blank" href="http://reg.163.com/agreement.shtml">《服务条款》</a>
+						和<a target="_blank" href="http://reg.163.com/agreement_game.shtml">《网络游戏用户隐私保护和个人信息利用政策》</a>
+					</div>
+				</div>
+			</form>
+		</div>
+		<div class="foot">
+			<div class="inner">
+				<div class="content">
+					<p>
+						<a href="">About&nbsp;NetEase</a>
+						-
+						<a href="">公司简介</a>
+						-
+						<a href="">联系方式</a>
+						-
+						<a href="">OAuth2.0认证</a>
+						-
+						<a href="">招聘信息</a>
+						-
+						<a href="">客户服务</a>
+						-
+						<a href="">相关法律</a>
+						-
+						<a href="">网络营销</a>
+					</p>
+					<p>网易公司版权所有&nbsp;@1997-2017</p>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript" src="../js/require.js" data-main="../js/main-reg.js" defer async="true"></script>
+</html>

@@ -1,0 +1,252 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none;
+  outline: none;
+  color: #666; }
+
+body {
+  background: #EFEFEF; }
+
+input {
+  width: 225px;
+  height: 30px;
+  padding-left: 0;
+  color: #333;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 30px; }
+
+.head {
+  height: 130px; }
+  .head .frame {
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden; }
+  .head .logo {
+    float: left;
+    width: 300px;
+    height: 60px;
+    margin-top: 35px;
+    background: url(../img/register/sprite.png) no-repeat;
+    background-position: -50px -16px; }
+  .head .right-tip {
+    float: right;
+    font-size: 18px;
+    margin-top: 50px;
+    color: #666; }
+    .head .right-tip a {
+      color: #ca5252; }
+
+.reg-page {
+  position: relative;
+  width: 1000px;
+  overflow: hidden;
+  padding-bottom: 55px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 6px;
+  box-shadow: 0 3px 3px #cbc9c9; }
+  .reg-page .mode {
+    width: 320px;
+    margin: 0 auto;
+    padding-top: 44px;
+    padding-bottom: 24px;
+    overflow: hidden; }
+    .reg-page .mode .left {
+      background: #ca5252;
+      color: #fff;
+      width: 159px;
+      border: solid 1px #ca5252;
+      border-right: 0;
+      height: 38px;
+      line-height: 38px;
+      text-align: center;
+      font-size: 16px;
+      float: left;
+      outline: none; }
+    .reg-page .mode .right {
+      display: block;
+      width: 159px;
+      border: solid 1px #ccc;
+      border-left: 0;
+      height: 38px;
+      line-height: 38px;
+      text-align: center;
+      font-size: 16px;
+      float: right;
+      position: relative;
+      outline: none; }
+  .reg-page .u-input {
+    position: relative;
+    float: left;
+    height: 72px;
+    width: 100%;
+    overflow: hidden; }
+    .reg-page .u-input .i-input {
+      float: left;
+      height: 44px;
+      width: 320px;
+      margin-top: 12px;
+      border: solid 1px #ddd;
+      font-size: 16px;
+      text-indent: 0.5em;
+      outline: none; }
+    .reg-page .u-input .sms {
+      width: 190px; }
+    .reg-page .u-input .btn-sms {
+      cursor: pointer;
+      background-color: #a1d1f6;
+      float: left;
+      height: 46px;
+      width: 120px;
+      font-size: 16px;
+      line-height: 46px;
+      margin: 12px 0 0 10px;
+      color: #fff;
+      background: #4ba7e0;
+      text-align: center; }
+    .reg-page .u-input .btn-reg {
+      float: left;
+      border: 0;
+      width: 322px;
+      height: 46px;
+      margin-top: 12px;
+      background-color: #ca5252;
+      text-align: center;
+      font-size: 18px;
+      color: #fff;
+      line-height: 46px;
+      cursor: pointer; }
+    .reg-page .u-input .disabled {
+      opacity: 0.6;
+      filter: alpha(opacity=60);
+      cursor: default; }
+    .reg-page .u-input .err {
+      color: #ca5252; }
+      .reg-page .u-input .err i {
+        background-position: -62px -99px; }
+    .reg-page .u-input .correct i {
+      background-position: -26px -99px; }
+    .reg-page .u-input .warn {
+      color: #999; }
+      .reg-page .u-input .warn i {
+        background-position: -391px -99px; }
+    .reg-page .u-input .tip {
+      margin-top: 10px;
+      color: #b1b1b1;
+      float: left;
+      width: 322px;
+      font-size: 12px; }
+      .reg-page .u-input .tip #chkbox {
+        cursor: pointer;
+        float: left;
+        width: 14px;
+        height: 14px;
+        line-height: 20px;
+        border: 1px solid #ccc;
+        background: #fff;
+        font-weight: 300;
+        margin-right: 5px;
+        outline: 0; }
+      .reg-page .u-input .tip a {
+        color: #b1b1b1;
+        font-size: 12px; }
+      .reg-page .u-input .tip a:hover {
+        color: #666; }
+  .reg-page .u-label {
+    float: left;
+    width: 340px;
+    text-align: right;
+    margin-top: 12px;
+    font-size: 16px;
+    line-height: 45px;
+    color: #333; }
+  .reg-page .u-tip {
+    position: relative;
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin-left: -42px;
+    margin-top: 15px;
+    z-index: 11;
+    background: #fff; }
+    .reg-page .u-tip .u-clear {
+      position: absolute;
+      display: none;
+      width: 20px;
+      height: 20px;
+      left: 10px;
+      top: 10px;
+      cursor: pointer;
+      opacity: 0.5;
+      background: url(../img/register/sprite.png) no-repeat;
+      background-position: -325px -101px; }
+  .reg-page .u-note {
+    height: 22px !important;
+    font-size: 12px;
+    line-height: 22px;
+    color: #999; }
+    .reg-page .u-note span {
+      cursor: pointer;
+      color: #4cb5ff; }
+  .reg-page .popb {
+    float: left;
+    margin-left: 10px;
+    width: 280px;
+    height: 72px;
+    max-height: 60px;
+    overflow: hidden;
+    font-size: 12px; }
+  .reg-page .icon {
+    height: 72px;
+    width: 24px; }
+    .reg-page .icon i {
+      float: left;
+      width: 22px;
+      height: 22px;
+      padding: 0 2px 0 0;
+      background: url(../img/register/sprite.png) no-repeat;
+      background-position: 0px -80px; }
+
+.inner {
+  height: 106px;
+  width: 1000px;
+  margin: 0 auto; }
+  .inner .content {
+    padding: 30px 0; }
+    .inner .content p {
+      padding-bottom: 10px;
+      text-align: center;
+      color: #b1b1b1;
+      font-size: 12px; }
+      .inner .content p a {
+        padding: 0 6px;
+        color: #b1b1b1;
+        text-decoration: none; }
+      .inner .content p a:hover {
+        color: #EE8C18; }
+
+input::-webkit-input-placeholder {
+  　　color: #999;
+  font-weight: 500;
+  opacity: 0.5; }
+
+input:-moz-placeholder {
+  　　color: #999;
+  font-weight: 500;
+  opacity: 0.5; }
+
+input::-moz-placeholder {
+  　　color: #999;
+  font-weight: 500;
+  opacity: 0.5; }
+
+input:-ms-input-placeholder {
+  　　color: #999;
+  font-weight: 500;
+  opacity: 0.5; }
